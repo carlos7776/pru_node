@@ -1,0 +1,27 @@
+{
+  "name": "nodeapptest",
+  "version": "1.0.0",
+  "description": "primer aplicacion DE APP test ADSI",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+
+  },
+  "keywords": [
+    "NodeJS",
+    "Backend",
+    "RestFull API"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.2.0",
+    "sequelize": "^6.29.0",
+    "sequelize-cli": "^6.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
